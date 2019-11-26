@@ -8,9 +8,10 @@ import {ThemeProvider} from 'styled-components'
 function App() {
 
   const theme = {
-    primaryColor: '#BADA56',
-    secundaryColor: '#7A41C4',
-    disabledColor: '#C1C1C1'
+    primaryColor: '#7A41C4',
+    secundaryColor: '#B882FF',
+    disabledColor: '#C1C1C1',
+    primaryFontColor: '#00ebeb'
   }
 
   return (
