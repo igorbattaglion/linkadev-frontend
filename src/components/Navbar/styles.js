@@ -9,7 +9,7 @@ export const NavBar = styled.div`
     height: 50px;
     display: flex;
     flex-direction: row;
-    background-color: ${props => props.theme.secundaryColor};
+    background-color: ${props => props.theme.primaryColor};
     justify-content: center;
     align-items: center;
 `;
