@@ -80,7 +80,7 @@ export const HackatonDetails = styled.div`
 
 export const DetailsText = styled.span`
     font-size: 25px;
-    color: ${props => props.theme.secundaryFontColor};
+    color: #fff;
 `;
 
 export const Divider = styled.div`

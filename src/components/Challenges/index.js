@@ -19,7 +19,7 @@ const customStyles = {
       width                 : '50%',
       height                : '600px',
       borderRadius          : '10px',
-      backgroundColor       : '#0C162A'
+      backgroundColor       : '#8b3fc9'
     }
   };
 
