@@ -11,8 +11,8 @@ export const MainContent = styled.div`
 export const Hackathon = styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%;
-    background: linear-gradient(#0C162A, #0E4F8A) ;
+    width: 50%;
+    background: #8b3fc9 ;
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
@@ -45,18 +45,18 @@ export const RequesterInfo = styled.div`
 `;
 
 export const RequesterSpan = styled.span`
-    color: ${props => props.theme.secundaryFontColor};
+    color: #FFF;
     font-size: 25px;
     font-weight: 600;
 `;
 
 export const RequesterName = styled.span`
-    color: ${props => props.theme.secundaryFontColor};
+    color: #FFF;
 `;
 
 export const TagSpan = styled.span`
     background-color: ${props => props.theme.secundaryFontColor};
-    color:  ${props => props.theme.primaryFontColor};
+    color: #FFF;
     font-size: 25px;
     padding: 5px;
     border-radius: 5px;
@@ -67,7 +67,7 @@ export const Button = styled.button`
     padding: 10px;
     border: 1px solid ${props => props.theme.secundaryFontColor};
     background-color: ${props => props.theme.secundaryFontColor};
-    color:  ${props => props.theme.primaryFontColor};
+    color: #FFF;
     border-radius: 5px;
 `;
 
